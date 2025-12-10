@@ -31,4 +31,8 @@ docker run -p 8000:8000 docker-nlp-api
 3. Test the NLP Prediction Endpoint
    # Send request and format JSON nicely
 (curl -Method POST -Uri "http://localhost:8000/predict" -ContentType "application/json" -Body '{"text":"I love AI"}').Content | ConvertFrom-Json | Format-List
+
+Output
+<img width="827" height="122" alt="image" src="https://github.com/user-attachments/assets/25bd9d14-fd22-4936-bcf6-def8c010c763" />
+
    
